@@ -1,0 +1,35 @@
+
+.text-container {
+    background: linear-gradient(400deg, #fde400be, #ffc936dc);
+    color: #fefefe;
+}
+
+.r {
+    background: linear-gradient(400deg, #ff4e2ed7, #ff6528ec);  
+    text-align: right;
+}
+
+.text-container .title {
+    margin: 0 10rem;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-family: "Knewave", sans-serif !important;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #202020;
+    font-size: 2rem;
+
+    color: transparent;
+    text-shadow: 4px 4px #FF5757;
+}
+
+.text-container .text-p {
+    margin: 0 10rem;
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #202020;
+    padding: 0 0 3rem 0;
+    margin-bottom: 6rem;
+}

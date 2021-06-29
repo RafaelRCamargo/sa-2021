@@ -1,0 +1,145 @@
+.urbanart-section {
+    margin-top: -80px;
+    background-image: url(../Assets/indiocolorido.jpg);
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.urbanart-section .body-container {
+    position: relative;
+    /*padding-top: 200px;*/
+    background-image: url("../Assets/amarelo.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: -50px 120px; 
+    /*background-color: blue;
+     margin: 0 8rem;
+    color: #262626;
+    font-weight: 700;
+    font-size: large;
+    z-index: 1; */
+}
+
+.urbanart-section .body-container .body-container-2 {
+    position: relative;
+    padding-top: 200px;
+    /* background-color: rgb(255, 0, 0); */
+    margin: 0 8rem;
+    color: #262626;
+    font-weight: 700;
+    font-size: large;
+    z-index: 1;
+}
+
+.urbanart-section .body-container h1 {
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Knewave', sans-serif;
+    font-size: 6rem;
+
+    color: transparent;
+    text-shadow: 6px 6px yellow;
+}
+
+.urbanart-section .body-container p {
+    margin-top: .2rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 20px;
+    padding-bottom: 212px;
+}
+
+.urbanart-section img {
+    position: absolute;
+    top: 160px;
+    left: -6rem;
+    width: 500px;
+    z-index: -1;
+}
+
+/*O que é*/
+
+div.what-is {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%; 
+    margin-bottom: 100px;
+    background-color: #262626c2;
+}
+div.what-is-p {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 0 8rem;
+    color: #cecece;
+    z-index: 1;
+}
+div.what-is-p h2 {
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+    padding-top: 80px;
+    font-family: 'Knewave', sans-serif;
+    color: transparent;
+    text-shadow: 6px 6px yellow;
+    font-size: 3rem;
+}
+div.what-is p {
+    color: #fff;
+    margin-top: .2rem;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 25px;
+}
+
+/*Eduardo Kobra*/
+
+div.eduardo-kobra {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%; 
+    background-color: #262626c2;
+}
+div.eduardo-kobra-m {
+    display: flex;
+    flex-direction: row;
+}
+div.eduardo-foto {
+    width: 300px;
+    height: 300px;
+    margin: 2rem 8rem;
+    border-radius: 100%;
+    background-image: url("https://f.i.uol.com.br/fotografia/2020/11/21/16060053625fb9b272cfd5f_1606005362_3x2_md.jpg");
+    background-position: center;
+    background-size: cover;
+}
+div.eduardo-kobra-p {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 0 2rem;
+    color: #cecece;
+    z-index: 1;
+}
+div.eduardo-kobra-p h2 {
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+    padding-top: 80px;
+    font-family: 'Knewave', sans-serif;
+    color: transparent;
+    text-shadow: 6px 6px yellow;
+    font-size: 3rem;
+}
+div.eduardo-kobra p {
+    color: #fff;
+    margin-top: .2rem;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 25px;
+}
