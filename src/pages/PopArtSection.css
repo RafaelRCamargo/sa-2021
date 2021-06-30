@@ -9,7 +9,7 @@
 .popart-section .body-container {
     position: relative;
     
-    margin: auto;
+    margin: auto 0;
     padding-top: 200px;
    
     height: 36rem;
@@ -106,26 +106,6 @@
 }
 
 @media screen and (max-width: 530px) {
-    .popart-section .body-container {
-        position: relative;
-        
-        padding-top: 180px;
-       
-        height: 80vh;
-    
-        background-size: 26rem;
-        background-position: 0rem 8rem;
-    }
-    .popart-section .body-container h1 {
-        margin: 0 5.4rem;
-        font-size: 3.6em;
-    }
-    .popart-section .body-container p {
-        margin: 0 5.4rem;
-    }
-}
-
-@media screen and (max-width: 430px) {
     .popart-section .body-container {
         position: relative;
                

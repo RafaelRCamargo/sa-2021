@@ -6,7 +6,6 @@
 
 .r {
     background: linear-gradient(400deg, #ff4e2ed7, #ff6528ec);  
-    text-align: right;
 }
 
 .text-container .title {
@@ -25,7 +24,7 @@
 
 .text-container .text-p {
     margin: 0 10rem;
-    width: 60%;
+    width: 45%;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
