@@ -27,21 +27,16 @@ let PopArtSection = () => {
       </TextContainer>
       
       <div className="carousel-container">
-        <Carousel />
+        <Carousel name="Andy Warhol"/>
       </div>
       
-      <TextContainer name="pop-art" title="o que é?">
-        A Pop art é um movimento artístico que surgiu nos anos 50 como forma de reação ao expressionismo abstrato e representava críticas à sociedade consumista, que vinha crescendo na época, além de trazer temas como sexualidade, fama e industrialização.
-        <br />
-        Marcado pela utilização de cores vibrantes, componentes ostensivos da cultura popular e objetos industrializados, a pop art traz esses elementos como ferramenta de crítica, hoje podemos encontrar esse tipo de arte em grafismo, quadrinhos, design e na moda.
+      <TextContainer name="pop-art r" title="Claudio Tozzi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ZmnDg1YQV2N1w_odvR4BnkPdgKCe3qE6eHRPF47a__7AEzeHuMorwmoxBGdtJJA3LVo&usqp=CAU">
+        Ganhou destaque no movimento ao reinventar técnicas de reprodução fotográfica. Uma de suas obras de destaque quase foi assolada durante um atentado realizado por um grupo de extrema direita, a obra se chamava “Guevara vivo ou morto”.      
       </TextContainer>
       
-      <TextContainer name="pop-art r" title="o que é?">
-        A Pop art é um movimento artístico que surgiu nos anos 50 como forma de reação ao expressionismo abstrato e representava críticas à sociedade consumista, que vinha crescendo na época, além de trazer temas como sexualidade, fama e industrialização.
-        <br />
-        Marcado pela utilização de cores vibrantes, componentes ostensivos da cultura popular e objetos industrializados, a pop art traz esses elementos como ferramenta de crítica, hoje podemos encontrar esse tipo de arte em grafismo, quadrinhos, design e na moda.
-      </TextContainer>
-      
+      <div className="carousel-container">
+        <Carousel name="claudio"/>
+      </div>
     </div>
   );
 };

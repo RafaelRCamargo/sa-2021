@@ -7,7 +7,12 @@
     grid-template-rows: auto 1fr;
     grid-template-columns: 2fr 1fr;
 
-    padding: 0 7vw;
+    padding: 2rem 7vw;
+    margin-bottom: 8rem;
+}
+
+.text-container.r {
+    margin: 0;
 }
 
 .text-container:nth-child(odd) {
@@ -67,8 +72,20 @@
     max-width: 300px;
     max-height: 300px;
     
-    min-width: 200px;
+    min-width: 300px;
     min-height: 270px;
     
     border-radius: 50%;
+}
+
+@media screen and (max-width: 920px) {
+    .text-container {
+        grid-template-columns: 1fr;
+    }
+    .text-container .text-p {
+        width: 100%;
+    }
+    .image-div {
+        display: none;
+    }
 }
