@@ -27,7 +27,7 @@ let PopArtSection = () => {
       </TextContainer>
       
       <div className="carousel-container">
-        <Carousel name="Andy Warhol"/>
+        <Carousel name="Andy-Warhol"/>
       </div>
       
       <TextContainer name="pop-art r" title="Claudio Tozzi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ZmnDg1YQV2N1w_odvR4BnkPdgKCe3qE6eHRPF47a__7AEzeHuMorwmoxBGdtJJA3LVo&usqp=CAU">
