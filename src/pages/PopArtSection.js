@@ -34,7 +34,7 @@ let PopArtSection = () => {
         Ganhou destaque no movimento ao reinventar técnicas de reprodução fotográfica. Uma de suas obras de destaque quase foi assolada durante um atentado realizado por um grupo de extrema direita, a obra se chamava “Guevara vivo ou morto”.      
       </TextContainer>
       
-      <div className="carousel-container" style={{ marginBottom:`0` }}>
+      <div className="carousel-container" style={{ marginBottom:`0`, margin:`auto` }}>
         <Carousel name="Claudio-Tozzi"/>
       </div>
     </div>
