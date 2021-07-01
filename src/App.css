@@ -5,3 +5,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+  background: url(./Assets/comics.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: url(https://i1.rgstatic.net/ii/profile.image/431189141004288-1479814910115_Q512/Paulo-Eduardo-Battistella.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 5px;
+}

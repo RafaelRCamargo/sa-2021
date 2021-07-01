@@ -9,7 +9,7 @@ let Visits = () => {
   useEffect(() => {
     async function saveVisita() {
       await api
-        .post("api/", { day: "40984131" })
+        .post("api/", { day: Date.now() })
         .then((response) => console.log(response))
         .catch((error) => console.log(error));
     }

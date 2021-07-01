@@ -3,13 +3,15 @@ import TextContainer from '../components/TextContainer';
 import Carousel from "../components/Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./PopArtSection.css";
+import AOS from 'aos'
 
 let PopArtSection = () => {
+  AOS.init();
   return (
     <div className="popart-section">
       <div className="body-container">
-        <h1>Pop Art</h1>
-        <p>
+        <h1 data-aos="zoom-in-up" data-aos-duration="1000">Pop Art</h1>
+        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
           Jhonatan Alves, Laura Ferrari, <br />
           Marcia Ravadelli e Rafael <br />
           Rakochinski
