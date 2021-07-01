@@ -89,6 +89,7 @@
 .carousel-root {
     max-width: 1200px;
     padding-bottom: 6rem;
+    margin: auto;
 }
 
 ul li img {
