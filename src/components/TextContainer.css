@@ -1,11 +1,11 @@
 
 .text-container {
-    background: linear-gradient(400deg, #fde400be, #ffc936dc);
+    background: linear-gradient(90deg, #fde400be, #ffc936dc);
     color: #fefefe;
 
     display: grid;
     grid-template-rows: auto 1fr;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
 
     padding: 2rem 7vw;
     margin-bottom: 8rem;
@@ -16,7 +16,7 @@
 }
 
 .text-container:nth-child(odd) {
-    background: linear-gradient(400deg, #262626cc, #404040ee);  
+    background: linear-gradient(90deg, #262626cc, #404040ee);  
 }
 
 
@@ -69,13 +69,15 @@
 }
 
 .image-div img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 260px;
+    max-height: 260px;
     
-    min-width: 300px;
-    min-height: 270px;
-    
+    min-width: 260px;
+    min-height: 260px;
+
     border-radius: 50%;
+    
+    object-fit: cover;
 }
 
 @media screen and (max-width: 920px) {

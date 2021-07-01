@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(180deg,rgba(20,20,20, .6) 50%, rgba(20,20,20, 0));
+  background: linear-gradient(180deg,rgba(20,20,20, .6) 50%, #1414144d);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -148,7 +148,8 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    margin: 0;
+    background: #1414144d;
     left: 0;
     opacity: 1;
     transition: .6s ease-in-out;
@@ -159,12 +160,12 @@
     text-align: center;
     padding: 2rem;
     width: 100%;
+    font-size: 2rem;
     display: table;
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
+    background-color: #fff00000;
     border-radius: 0;
   }
 
@@ -189,18 +190,7 @@
   }
 
   .nav-links-mobile {
-    display: block;
-    text-align: center;
-    margin: 2rem auto;
-    border-radius: 4px;
-    width: 80%;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: #fff;
-    padding: 14px 20px;
-    border: 1px solid #fff;
-    transition: .6s ease-in-out;
+    display: none;
   }
 
   .nav-links-mobile:hover {
