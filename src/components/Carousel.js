@@ -60,7 +60,7 @@ const CarouselSlider = (props) => {
     return (
       <Carousel autoPlay interval={4000} infiniteLoop centerMode dynamicHeight emulateTouch showThumbs={false} showStatus={false}>
         <div>
-          <img alt="" src="https://i.pinimg.com/originals/12/57/82/125782c5452e0f23b497234e2e4f1ce7.jpg" />
+          <img alt="" src="https://www.acontecendoaqui.com.br/wp-content/uploads/2013/08/1001522_608105979230362_260751245_n1-e1376444151227.jpg" />
         </div>
         <div>
           <img alt="" src="https://pbs.twimg.com/media/DOFBCDTXkAAr81_.jpg" />
