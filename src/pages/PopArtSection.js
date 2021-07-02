@@ -3,7 +3,7 @@ import TextContainer from '../components/TextContainer';
 import Carousel from "../components/Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./PopArtSection.css";
-import AOS from 'aos'
+import AOS from 'aos';
 
 let PopArtSection = () => {
   AOS.init();

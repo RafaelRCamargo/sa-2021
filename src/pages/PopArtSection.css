@@ -8,41 +8,32 @@
 
 .popart-section .body-container {
     position: relative;
-
     margin: auto 0;
     padding-top: 200px;
-
     height: 36rem;
     max-width: 1500px;
-
     margin-bottom: 12rem;
-
     background-image: url(../Assets/cartoon.png);
     background-size: 42rem;
     background-position: 2rem 8rem;
     background-repeat: no-repeat;
-
     color: #cecece;
     z-index: 1;
 }
 
 .popart-section .body-container h1 {
     margin: 0 10rem;
-
     -webkit-text-stroke-width: 6px;
     -webkit-text-stroke-color: #202020;
     font-family: "Knewave", sans-serif;
     font-size: 7.6rem;
-
     color: transparent;
     text-shadow: 6px 6px yellow;
-
     text-transform: uppercase;
 }
 
 .popart-section .body-container p {
     margin: 0 10rem;
-
     font-weight: 500;
     letter-spacing: .5px;
     line-height: 20px;
@@ -64,7 +55,6 @@
     font-family: 'Lato', sans-serif;
     font-size: 4rem;
     font-weight: 900;
-
     color: #cecece;
     text-shadow: 0px 0px transparent;
     margin-right: 1rem;
