@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import PopArt from './pages/PopArtSection';
 import UrbanArt from './pages/UrbanArtSection';
+import Galery from './pages/Galery';
 import Visits from './components/Visits';
 
 const Routes = () => {
@@ -15,6 +16,7 @@ const Routes = () => {
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/pop-art" component={PopArt}/>
                 <Route exact path="/urban-art" component={UrbanArt}/>
+                <Route exact path="/galery" component={Galery}/>
             </Switch>
             <Visits/>
         </BrowserRouter>

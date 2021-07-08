@@ -32,7 +32,7 @@ let Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <Link to="/visits" className="nav-links" onClick={closeMobileMenu}> Acessos </Link>
+              <Link to="/galery" className="nav-links" onClick={closeMobileMenu}> Galeria </Link>
             </li>
 
             <li>
