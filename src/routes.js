@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import PopArt from './pages/PopArtSection';
 import UrbanArt from './pages/UrbanArtSection';
 import Galery from './pages/Galery';
+import Images from './pages/Images';
 import Visits from './components/Visits';
 
 const Routes = () => {
@@ -17,6 +18,7 @@ const Routes = () => {
                 <Route exact path="/pop-art" component={PopArt}/>
                 <Route exact path="/urban-art" component={UrbanArt}/>
                 <Route exact path="/galery" component={Galery}/>
+                <Route exact path="/images" component={Images}/>
             </Switch>
             <Visits/>
         </BrowserRouter>
