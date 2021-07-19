@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
 
 import { Link } from "react-router-dom";
 import "./Navbar.css";
@@ -18,7 +16,7 @@ let Navbar = () => {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>Semana da Arte</Link>
 
           <div className="menu-icon" onClick={handleClick}>
-            <FontAwesomeIcon icon={click ? faTimes : faBars} />
+            {/*<FontAwesomeIcon icon={click ? faTimes : faBars} />*/}
           </div>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
