@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import api from "../services/api";
 
 const Images = () => {
-    const [data, setData] = useState()
+    /*const [data, setData] = useState()
 
     useEffect(() => {
         async function loadImages() {
@@ -14,21 +14,14 @@ const Images = () => {
                 });
             }
             loadImages()
-        }, [])
-        
-        
-        return (
+        }, [])*/
+    
+    return (
             <div className="container-Images">
-            <div className="container-body-images">
-                {/*data.map((item) => {
-                    return(
-                        <div>
-                            item
-                        </div>
-                    )
-                })*/}
+                <div className="container-body-images">
+                    <h1>aaa</h1>
+                </div>
             </div>
-        </div>
     );
 }
 
