@@ -44,11 +44,11 @@ const Galery = () => {
 
     }
 
-    async function loadImages() {
+    /*async function loadImages() {
         await api
             .get("imagem/")
             .then((response) => setUrl(response.data[1].link));
-    }
+    }*/
 
     return (
         <div className="container-galery">
