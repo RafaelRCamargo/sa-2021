@@ -24,7 +24,6 @@ const Galery = () => {
     async function saveImage() {
         if (document.querySelector('.name').value) {
             if (document.querySelector('.email').value) {
-                {
                     url ? (await api
                         .post("imagem/", {
                             nome: document.querySelector('.name').value,
@@ -34,7 +33,6 @@ const Galery = () => {
                         })
                         .then((response) => console.log(response))
                         .catch((error) => console.log(error))) : alert("Preencha todos os campos!");
-                }
             } else {
                 alert("Preencha todos os campos!");
             }
