@@ -10,8 +10,6 @@ let Visits = () => {
     async function saveVisita() {
       await api
         .post("api/", { day: Date.now() })
-        .then((response) => console.log(response))
-        .catch((error) => console.log(error));
     }
     async function loadVisitas() {
       await api
