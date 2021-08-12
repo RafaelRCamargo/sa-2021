@@ -12,6 +12,7 @@ const Images = () => {
             if (e.link.substr(e.link.length - 3, 3) !== "com") {
                 url.push(e.link)
             }
+            return null
         })
         setUrl(url)
         console.log(url);
@@ -26,7 +27,7 @@ const Images = () => {
 
     useEffect(()=>{
         loadImages()
-    }, [])
+    })
 
     return (
         <div className="container-Images">

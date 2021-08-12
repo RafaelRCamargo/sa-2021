@@ -1,7 +1,10 @@
 import React from 'react';
 import "./css/style.scss"
+import AOS from 'aos';
 
 let Home = () => {
+    AOS.init();
+
     return (
         <>
             <div className="bg-tinta-meio">
@@ -9,8 +12,8 @@ let Home = () => {
             </div>
             <section id="sobre" className="container sobre mb-2 mt-2">
                 <div className="container-item">
-                    <h3>Sobre a semana da arte</h3>
-                    <h5 className="mt-2">A semana da arte é um evento criado pela coordenação pedagógica
+                    <h3 data-aos="fade-up" data-aos-duration="1000">Sobre a semana da arte:</h3>
+                    <h5 className="mt-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="400">A semana da arte é um evento criado pela coordenação pedagógica
                         da instituição SESI SENAI, de Florianópolis, em colaboração com os docentes,
                         que tem como objetivo unir a escola em um único projeto, onde nesse projeto,
                         a arte se torna o principal meio de comunicação e expressão, utilizando textos,
@@ -24,8 +27,8 @@ let Home = () => {
 
             <section id="sobre" className="container sobre mb-2 mt-2">
                 <div className="container-item">
-                    <h3>Sobre o site desenvolvido</h3>
-                    <h5 className="mt-2">A semana da arte é um evento criado pela coordenação pedagógica
+                    <h3 data-aos="fade-left" data-aos-duration="1000">Sobre o site:</h3>
+                    <h5 className="mt-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="400">A semana da arte é um evento criado pela coordenação pedagógica
                         da instituição SESI SENAI, de Florianópolis, em colaboração com os docentes,
                         que tem como objetivo unir a escola em um único projeto, onde nesse projeto,
                         a arte se torna o principal meio de comunicação e expressão, utilizando textos,
@@ -37,11 +40,13 @@ let Home = () => {
                 </div>
             </section>
 
+            <h1 className="home-subtitle" data-aos="fade-up" data-aos-duration="1600">Obras: </h1>
+
             <section id="sobre" className="container sobre mb-2 mt-2">
                 <div className="container-item">
-                    <h3>Teenager's void</h3>
-                    <h4 className="mt-1">Estilo: Pop Art</h4>
-                    <h5 className="mt-2">Evidenciando elementos da infância de muitos,
+                    <h3 data-aos="fade-left" data-aos-duration="1000">Teenager's void</h3>
+                    <h4 className="mt-1" data-aos="fade-in" data-aos-duration="800" data-aos-delay="300">Estilo: Pop Art</h4>
+                    <h5 className="mt-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="600">Evidenciando elementos da infância de muitos,
                         a obra também tem sua parte atual, com memes e imagens que viralizaram há não muito tempo.
                         Cores vivas e um filtro vintage estão presentes também. A obra faz alusão a mente de um adolescente,
                         que está repleta de coisas, que juntas, parecem um tanto quanto confusas. </h5>
@@ -54,9 +59,9 @@ let Home = () => {
 
             <section id="sobre" className="container sobre mb-2 mt-2">
                 <div className="container-item">
-                    <h3>Nostalgia</h3>
-                    <h4 className="mt-1">Estilo: Pop Art</h4>
-                    <h5 className="mt-2">Assim como o nome já diz, a obra Nostalgia foi criada com a intenção de dar
+                    <h3 data-aos="fade-left" data-aos-duration="1000">Nostalgia</h3>
+                    <h4 className="mt-1" data-aos="fade-in" data-aos-duration="800" data-aos-delay="300">Estilo: Pop Art</h4>
+                    <h5 className="mt-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="600">Assim como o nome já diz, a obra Nostalgia foi criada com a intenção de dar
                         um gostinho da infância do brasileiro por meio do uso da Pop Art. Utilizando várias imagens de HQ’s e
                         formas
                         coloridas, ela mostra uma representação do bairro do Limoeiro, icônico lar da Turma da Mônica, criação
@@ -70,9 +75,9 @@ let Home = () => {
 
             <section id="sobre" className="container sobre mb-2 mt-2">
                 <div className="container-item">
-                    <h3>Who's the monster?</h3>
-                    <h4 className="mt-1">Estilo: Arte Urbana</h4>
-                    <h5 className="mt-2">A obra demonstra como a vida das cidades destrói a arte e diminui cada vez mais sua
+                    <h3 data-aos="fade-left" data-aos-duration="1000">Who's the monster?</h3>
+                    <h4 className="mt-1" data-aos="fade-in" data-aos-duration="800" data-aos-delay="300">Estilo: Arte Urbana</h4>
+                    <h5 className="mt-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="600">A obra demonstra como a vida das cidades destrói a arte e diminui cada vez mais sua
                         valorização,
                         trazendo um “monstro” sendo atacado por humanos e um questionamento sobre quem realmente é o monstro: a
                         cidade que destrói as expressões
@@ -86,9 +91,9 @@ let Home = () => {
 
             <section id="sobre" className="container sobre mb-2 mt-2">
                 <div className="container-item">
-                    <h3>Ocean Invader</h3>
-                    <h4 className="mt-1">Estilo: Arte Urbana</h4>
-                    <h5 className="mt-2">A obra mostra a famosa ilha da magia, cheia de criaturas inusitadas e diferentes das quais nós lemos nas histórias e lendas sobre esse lugar, como as de Franklin Cascaes.</h5>
+                    <h3 data-aos="fade-left" data-aos-duration="1000">Ocean Invader</h3>
+                    <h4 className="mt-1" data-aos="fade-in" data-aos-duration="800" data-aos-delay="300">Estilo: Arte Urbana</h4>
+                    <h5 className="mt-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="600">A obra mostra a famosa ilha da magia, cheia de criaturas inusitadas e diferentes das quais nós lemos nas histórias e lendas sobre esse lugar, como as de Franklin Cascaes.</h5>
                 </div>
                 <div className="container-item text-center">
                     <img src="assets/ocean-invader.jpg" alt="Imagem da obra" />

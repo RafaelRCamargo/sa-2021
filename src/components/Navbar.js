@@ -33,6 +33,10 @@ let Navbar = () => {
               <Link to="/galery" className="nav-links" onClick={closeMobileMenu}> Galeria </Link>
             </li>
 
+            <li className="nav-item">
+              <Link to="/images" className="nav-links" onClick={closeMobileMenu}> Upload </Link>
+            </li>
+
             <li>
               <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}> Arte Urbana </Link>
             </li>

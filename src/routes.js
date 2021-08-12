@@ -17,8 +17,8 @@ const Routes = () => {
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/pop-art" component={PopArt}/>
                 <Route exact path="/urban-art" component={UrbanArt}/>
-                <Route exact path="/galery" component={Galery}/>
-                <Route exact path="/images" component={Images}/>
+                <Route exact path="/galery" component={Images}/>
+                <Route exact path="/images" component={Galery}/>
             </Switch>
             <Visits/>
         </BrowserRouter>

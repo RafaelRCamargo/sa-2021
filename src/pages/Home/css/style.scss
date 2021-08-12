@@ -40,3 +40,14 @@ footer {
     box-shadow: 2px 2px 10px #4b4b4b30;
     margin-bottom: 12px;
 }
+
+.home-subtitle {
+    width: fit-content;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #4b4b4b;
+    background-color: $branco-light;
+    padding: 1rem 8rem;
+    margin: 2rem auto;
+}
