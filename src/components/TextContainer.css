@@ -52,7 +52,7 @@
     /*margin: 0 10rem;*/
     width: 72%;
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-weight: 400 !important;
     font-size: 1.2rem;
     color: #202020;
     padding: 0 0 3rem 0;
@@ -60,7 +60,7 @@
 }
 
 .r .text-p {
-    color: #cecece;
+    color: #fff;
 }
 
 .image-div {

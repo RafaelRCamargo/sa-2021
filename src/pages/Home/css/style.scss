@@ -1,0 +1,42 @@
+@import './sass/cores';
+@import './sass/tipografia';
+
+body {
+    width: 100%;
+    background-color: $rosa;
+}
+
+.bolder {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+footer {
+    padding-bottom: 4rem;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-footer {
+    width: 25px;
+}
+
+.text-right {
+    margin-left: 50px;
+    width: 40rem
+}
+
+@import './sass/espacos';
+@import './sass/layout';
+
+.sobre {
+    height: 66vh;
+}
+
+.container-item img {
+    box-shadow: 2px 2px 10px #4b4b4b30;
+    margin-bottom: 12px;
+}

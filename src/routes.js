@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import Navbar from './components/Navbar';
 import PopArt from './pages/PopArtSection';
 import UrbanArt from './pages/UrbanArtSection';

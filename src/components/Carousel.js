@@ -6,9 +6,6 @@ const CarouselSlider = (props) => {
     return (
       <Carousel autoPlay interval={4000} infiniteLoop centerMode dynamicHeight emulateTouch showThumbs={false} showStatus={false}>
         <div>
-          <img alt="" src="https://cdn-istoe-ssl.akamaized.net/wp-content/uploads/sites/14/2021/03/marilyn.jpg" />
-        </div>
-        <div>
           <img alt="" src="https://fremplast.com.br/new-site/wp-content/uploads/2012/12/andy-warhol-1200x900.jpg" />
         </div>
         <div>

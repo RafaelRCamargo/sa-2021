@@ -1,0 +1,10 @@
+.container-body-images {
+    margin-top: 2rem;
+    display: grid;
+    gap: 50px;
+    place-items: center;
+}
+
+.container-body-images img {
+    box-shadow: 4px 4px 23px #4b4b4b9a;
+}
