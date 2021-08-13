@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react'
 import api from "../services/api";
 import "./Images.css"
 const Images = () => {
-    const [url] = useState([])
-
     useEffect(() => {
+        const [url] = useState([])
+
         async function loadImages() {
             await api
                 .get("imagem/")
@@ -17,10 +17,10 @@ const Images = () => {
                 }
                 return null
             })
-            console.log(url);
         }
+        console.log(url);
         loadImages()
-    }, [url])
+    }, [])
 
     return (
         <div className="container-Images">
