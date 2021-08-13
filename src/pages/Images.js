@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react'
 import api from "../services/api";
 import "./Images.css"
 const Images = () => {
-    useEffect(() => {
-        const [url] = useState([])
+    const [urls] = useState([])
 
+    useEffect(() => {
+        const url = []
         async function loadImages() {
             await api
                 .get("imagem/")
