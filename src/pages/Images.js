@@ -4,7 +4,6 @@ import "./Images.css"
 const Images = () => {
     const [url, setUrl] = useState([])
     const [req, setReq] = useState()
-    const [isFetch, setIsFetch] = useState(false)
 
     useEffect(() => {
         const checkLinks = (response) => {
@@ -23,7 +22,7 @@ const Images = () => {
         async function loadImages() {
             await api
                 .get("imagem/")
-                .then((response) => { checkLinks(response); setIsFetch(true) })
+                .then((response) => { checkLinks(response) })
         }
         loadImages()
     }, [])
