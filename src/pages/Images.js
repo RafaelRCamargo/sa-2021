@@ -27,7 +27,7 @@ const Images = () => {
 
     useEffect(()=>{
         loadImages()
-    })
+    }, [])
 
     return (
         <div className="container-Images">
