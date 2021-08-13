@@ -20,7 +20,7 @@ const Images = () => {
             console.log(url);
         }
         loadImages()
-    }, [loadImages])
+    }, [url])
 
     return (
         <div className="container-Images">
