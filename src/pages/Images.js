@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import api from "../services/api";
 import "./Images.css"
 const Images = () => {
-    const [url, setUrl] = useState([])
+    const [url] = useState([])
     const [req, setReq] = useState()
 
     useEffect(() => {
