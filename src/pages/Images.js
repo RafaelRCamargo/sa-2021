@@ -26,7 +26,7 @@ const Images = () => {
 
     return (
         <div className="container-Images">
-            <div className="container-body-images">
+            <div className="container-body-images" style={{paddingBottom: "4rem"}}>
                 {links && links.map(e => { console.log(e); return <img style={{ maxWidth: '80%' }} data-aos="fade-in" data-aos-duration="800" key={Math.floor(Math.random() * 1000)} src={e} alt="AAA" /> })}
             </div>
         </div>
