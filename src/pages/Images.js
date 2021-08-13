@@ -3,7 +3,6 @@ import api from "../services/api";
 import "./Images.css"
 const Images = () => {
     const [url] = useState([])
-    const [req, setReq] = useState()
 
     useEffect(() => {
         async function loadImages() {
@@ -12,7 +11,6 @@ const Images = () => {
                 .then((response) => { checkLinks(response) })
         }
         const checkLinks = (response) => {
-            setReq(response.data)
             response.data.map(e => {
                 if (e.link.substr(e.link.length - 3, 3) !== "com") {
                     url.push(e.link)
@@ -20,7 +18,6 @@ const Images = () => {
                 return null
             })
             console.log(url);
-            console.log(req);
         }
         loadImages()
     }, [])
