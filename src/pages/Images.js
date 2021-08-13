@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import api from "../services/api";
 import "./Images.css"
 const Images = () => {
     const [url, setUrl] = useState([])
     const [req, setReq] = useState()
-
+    const [isFetch, setIsFetch] = useState(false)
+    
     const checkLinks = (response) => {
         setUrl([])
         setReq(response.data)
@@ -22,10 +23,12 @@ const Images = () => {
     async function loadImages() {
         await api
             .get("imagem/")
-            .then((response) => { checkLinks(response) })
+            .then((response) => { checkLinks(response); setIsFetch(true) })
     }
 
-    loadImages()
+    useEffect(() => {
+        loadImages()
+    }, [isFetch])
 
     return (
         <div className="container-Images">
