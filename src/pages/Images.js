@@ -5,13 +5,13 @@ const Images = () => {
     const [urls] = useState([])
 
     useEffect(() => {
-        const url = []
         async function loadImages() {
             await api
                 .get("imagem/")
                 .then((response) => { checkLinks(response) })
         }
         const checkLinks = (response) => {
+            const url = []
             response.data.map(e => {
                 if (e.link.substr(e.link.length - 3, 3) !== "com") {
                     url.push(e.link)
