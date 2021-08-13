@@ -20,15 +20,14 @@ const Images = () => {
         console.log(req);
     }
 
-    async function loadImages() {
-        await api
-            .get("imagem/")
-            .then((response) => { checkLinks(response); setIsFetch(true) })
-    }
-
     useEffect(() => {
+        async function loadImages() {
+            await api
+                .get("imagem/")
+                .then((response) => { checkLinks(response); setIsFetch(true) })
+        }
         loadImages()
-    }, [isFetch])
+    }, [])
 
     return (
         <div className="container-Images">
