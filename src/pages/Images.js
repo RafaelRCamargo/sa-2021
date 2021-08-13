@@ -25,9 +25,7 @@ const Images = () => {
             .then((response) => { checkLinks(response) })
     }
 
-    useEffect(()=>{
-        loadImages()
-    }, [])
+    loadImages()
 
     return (
         <div className="container-Images">
