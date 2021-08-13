@@ -6,8 +6,12 @@ const Images = () => {
     const [req, setReq] = useState()
 
     useEffect(() => {
+        async function loadImages() {
+            await api
+                .get("imagem/")
+                .then((response) => { checkLinks(response) })
+        }
         const checkLinks = (response) => {
-            setUrl([])
             setReq(response.data)
             response.data.map(e => {
                 if (e.link.substr(e.link.length - 3, 3) !== "com") {
@@ -15,14 +19,8 @@ const Images = () => {
                 }
                 return null
             })
-            setUrl(url)
             console.log(url);
             console.log(req);
-        }
-        async function loadImages() {
-            await api
-                .get("imagem/")
-                .then((response) => { checkLinks(response) })
         }
         loadImages()
     }, [])
