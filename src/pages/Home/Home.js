@@ -6,7 +6,7 @@ let Home = () => {
     AOS.init();
 
     return (
-        <>
+        <div className="home">
             <div className="bg-tinta-meio">
                 <img src="assets/TintaMeio.svg" alt="" />
             </div>
@@ -135,7 +135,7 @@ let Home = () => {
                     </div>
                 </div>
             </footer>
-        </>
+        </div>
     )
 }
 

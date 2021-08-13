@@ -9,6 +9,12 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  transition: .3s ease-in-out;
+}
+
+.navbar.active {
+  background: #1414144d;
+  transition: 1s ease-in-out;
 }
 
 .navbar-container {

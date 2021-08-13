@@ -11,12 +11,12 @@ let Navbar = () => {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className={click ? "navbar active" : "navbar"}>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>Semana da Arte</Link>
 
           <div className="menu-icon" onClick={handleClick}>
-            {/*<FontAwesomeIcon icon={click ? faTimes : faBars} />*/}
+            <img src={click ? "assets/times-solid.svg" : "assets/bars-solid.svg"} alt="navbar icon" style={{width: '29px', height: '29px'}} />
           </div>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

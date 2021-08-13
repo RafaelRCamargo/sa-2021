@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import api from "../services/api";
 import "./Images.css"
 const Images = () => {
-    const [urls] = useState([])
+    const [url] = useState([])
+    const [links, setLinks] = useState([])
 
     useEffect(() => {
         async function loadImages() {
@@ -11,22 +12,22 @@ const Images = () => {
                 .then((response) => { checkLinks(response) })
         }
         const checkLinks = (response) => {
-            const url = []
             response.data.map(e => {
                 if (e.link.substr(e.link.length - 3, 3) !== "com") {
                     url.push(e.link)
                 }
                 return null
             })
+            setLinks(url)
+            console.log(url);
         }
-        console.log(url);
         loadImages()
-    }, [])
+    }, [url])
 
     return (
         <div className="container-Images">
             <div className="container-body-images">
-                {url && url.map(e => { return <img data-aos="fade-in" data-aos-duration="800" key={Math.floor(Math.random()*1000)} src={e} alt="AAA" /> })}
+                {links && links.map(e => { console.log(e); return <img style={{ maxWidth: '80%' }} data-aos="fade-in" data-aos-duration="800" key={Math.floor(Math.random() * 1000)} src={e} alt="AAA" /> })}
             </div>
         </div>
     );

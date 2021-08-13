@@ -12,7 +12,8 @@ const Galery = () => {
         await fetch("https://api.imgur.com/3/image/", {
             method: "post",
             headers: {
-                Authorization: "Client-ID 7e6a8e8bd404818"
+                'User-agent': '077a6facec0b215',
+                Authorization: "Client-ID 077a6facec0b215"
             },
             body: formdata
         })
